@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.Main" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/theme_main_primary</item>
+        <item name="colorOnPrimary">@color/theme_main_onPrimary</item>
+        <item name="colorPrimaryContainer">@color/theme_main_primaryContainer</item>
+        <item name="colorOnPrimaryContainer">@color/theme_main_onPrimaryContainer</item>
+        <item name="colorSecondary">@color/theme_main_secondary</item>
+        <item name="colorOnSecondary">@color/theme_main_onSecondary</item>
+        <item name="colorSecondaryContainer">@color/theme_main_secondaryContainer</item>
+        <item name="colorOnSecondaryContainer">@color/theme_main_onSecondaryContainer</item>
+        <item name="colorTertiary">@color/theme_main_tertiary</item>
+        <item name="colorOnTertiary">@color/theme_main_onTertiary</item>
+        <item name="colorTertiaryContainer">@color/theme_main_tertiaryContainer</item>
+        <item name="colorOnTertiaryContainer">@color/theme_main_onTertiaryContainer</item>
+        <item name="colorError">@color/theme_main_error</item>
+        <item name="colorErrorContainer">@color/theme_main_errorContainer</item>
+        <item name="colorOnError">@color/theme_main_onError</item>
+        <item name="colorOnErrorContainer">@color/theme_main_onErrorContainer</item>
+        <item name="android:colorBackground">@color/theme_main_background</item>
+        <item name="colorOnBackground">@color/theme_main_onBackground</item>
+        <item name="colorSurface">@color/theme_main_surface</item>
+        <item name="colorOnSurface">@color/theme_main_onSurface</item>
+        <item name="colorSurfaceVariant">@color/theme_main_surfaceVariant</item>
+        <item name="colorOnSurfaceVariant">@color/theme_main_onSurfaceVariant</item>
+        <item name="colorOutline">@color/theme_main_outline</item>
+        <item name="colorOnSurfaceInverse">@color/theme_main_inverseOnSurface</item>
+        <item name="colorSurfaceInverse">@color/theme_main_inverseSurface</item>
+        <item name="colorPrimaryInverse">@color/theme_main_primaryInverse</item>
+        <item name="android:statusBarColor">@color/theme_main_primary</item>
+    </style>
+</resources>

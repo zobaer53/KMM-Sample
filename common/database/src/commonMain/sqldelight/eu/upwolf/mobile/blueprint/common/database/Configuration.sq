@@ -1,0 +1,25 @@
+CREATE TABLE Configuration (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    key TEXT NOT NULL,
+    value TEXT
+);
+
+selectAll:
+SELECT *
+FROM Configuration;
+
+select:
+SELECT *
+FROM Configuration
+WHERE id = :id;
+
+insert:
+INSERT INTO Configuration (key, value)
+VALUES (?, ?);
+
+delete:
+DELETE FROM Configuration
+WHERE id = :id;
+
+deleteAll:
+DELETE FROM Configuration;

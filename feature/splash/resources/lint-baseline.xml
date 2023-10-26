@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<issues format="6" by="lint 7.3.0" type="baseline" client="gradle" dependencies="false" name="AGP (7.3.0)" variant="all" version="7.3.0">
+
+    <issue
+        id="UnusedResources"
+        message="The resource `R.string.logo_content_description` appears to be unused"
+        errorLine1=" &lt;string name=&quot;logo_content_description&quot;>Logo&lt;/string>"
+        errorLine2="         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="build/generated/moko/androidMain/res/values/multiplatform_strings.xml"
+            line="3"
+            column="10"/>
+    </issue>
+
+</issues>

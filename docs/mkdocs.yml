@@ -1,0 +1,104 @@
+site_name: Blueprint Mobile KMP
+site_description: A blueprint to kickstart Mobile KMP projects.
+site_author: Wolf-Martell Montwé
+site_url: https://bitfunk.github.io/blueprint-mobile-kmp/
+
+repo_name: bitfunk/blueprint-mobile-kmp
+repo_url: https://github.com/bitfunk/blueprint-mobile-kmp
+edit_uri: edit/main/docs/src/
+
+copyright: Copyright &copy; 2022 Wolf-Martell Montwé
+
+docs_dir: src
+
+extra_css:
+  - assets/css/extra.css
+
+theme:
+  name: 'material'
+  font: false
+  language: en
+  logo: assets/images/brand-logo.svg
+  favicon: assets/images/logo.svg
+  custom_dir: theme
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      toggle:
+        icon: material/brightness-4
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/brightness-7
+        name: Switch to light mode
+  social:
+    - type: 'github'
+      link: 'https://github.com/bitfunk/blueprint-mobile-kmp'
+  features:
+    - navigation.tracking
+    - navigation.top
+    - navigation.indexes
+
+plugins:
+  - search
+  - redirects
+  - kroki
+  - include-markdown
+  - markdownextradata
+  - minify:
+      minify_html: true
+      htmlmin_opts:
+        remove_comments: true
+
+extra:
+  version:
+    provider: mike
+
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/bitfunk
+
+markdown_extensions:
+  # Python Markdown
+  - abbr
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - meta
+  - md_in_html
+  - toc:
+      permalink: true
+
+  # Python Markdown Extensions
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+
+nav:
+  - Home: index.md
+  - Changelog: changelog.md
+  - Develop:
+      - Code of Conduct: develop/codeOfConduct.md
+      - Contributing: develop/contributing.md
+      - Releasing: develop/releasing.md
+      - Badges: develop/badges.md
+  - License: license.md

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;">
+    <g transform="matrix(1,0,0,1,-3250,-5)">
+        <g id="Logo" transform="matrix(0.64,0,0,0.64,2194,5)">
+            <rect x="1650" y="0" width="1600" height="1600" style="fill:none;"/>
+            <g transform="matrix(7.31429,0,0,7.31429,343.826,-923.709)">
+                <g transform="matrix(0.427246,0,0,0.427246,287.953,235.663)">
+                    <g transform="matrix(1,0,0,1,-256,-256)">
+                        <path d="M336,64L368,64C394.332,64 416,85.668 416,112L416,432C416,458.332 394.332,480 368,480L144,480C117.668,480 96,458.332 96,432L96,112C96,85.668 117.668,64 144,64L176,64" style="fill:rgb(244,250,255);fill-rule:nonzero;stroke:rgb(91,96,113);stroke-width:32px;"/>
+                        <path d="M336,58.13C336,43.708 324.292,32 309.87,32L202.13,32C187.708,32 176,43.708 176,58.13L176,69.87C176,84.292 187.708,96 202.13,96L309.87,96C324.292,96 336,84.292 336,69.87L336,58.13Z" style="fill:rgb(244,250,255);stroke:rgb(91,96,113);stroke-width:32px;"/>
+                    </g>
+                </g>
+                <g transform="matrix(0.239729,0,0,0.239729,287.953,248.141)">
+                    <g transform="matrix(1,0,0,1,-256,-256)">
+                        <circle cx="128" cy="96" r="48" style="fill:none;stroke:rgb(66,165,245);stroke-width:32px;stroke-linecap:round;"/>
+                        <circle cx="256" cy="416" r="48" style="fill:none;stroke:rgb(66,165,245);stroke-width:32px;stroke-linecap:round;"/>
+                        <path d="M256,256L256,368" style="fill:none;fill-rule:nonzero;stroke:rgb(66,165,245);stroke-width:32px;stroke-linecap:round;"/>
+                        <circle cx="384" cy="96" r="48" style="fill:none;stroke:rgb(66,165,245);stroke-width:32px;stroke-linecap:round;"/>
+                        <path d="M128,144C128,218.67 196.92,256 256,256M384,144C384,218.67 315.08,256 256,256" style="fill:none;fill-rule:nonzero;stroke:rgb(66,165,245);stroke-width:32px;stroke-linecap:round;"/>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

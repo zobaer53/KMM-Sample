@@ -1,0 +1,73 @@
+<?xml version="1.0" ?>
+<SmellBaseline>
+  <ManuallySuppressedIssues></ManuallySuppressedIssues>
+  <CurrentIssues>
+    <ID>ComplexCondition:Dangerfile.df.kts$!isFeatureBranch &amp;&amp; !isReleaseBranch &amp;&amp; !isDependabotBranch &amp;&amp; !isRenovateBranch</ID>
+    <ID>FunctionNaming:GradleAndroidExtensions.kt$internal fun DependencyHandler.`androidTestImplementation`(dependencyNotation: Any): Dependency?</ID>
+    <ID>FunctionNaming:GradleAndroidExtensions.kt$internal fun DependencyHandler.`implementation`(dependencyNotation: Any): Dependency?</ID>
+    <ID>FunctionNaming:GradleAndroidExtensions.kt$internal fun DependencyHandler.`testImplementation`(dependencyNotation: Any): Dependency?</ID>
+    <ID>LongMethod:AndroidAppConfigurationPlugin.kt$AndroidAppConfigurationPlugin$private fun setupAndroidApplication(project: Project)</ID>
+    <ID>LongMethod:AndroidLibraryConfigurationPlugin.kt$AndroidLibraryConfigurationPlugin$private fun setupAndroidLibrary(project: Project)</ID>
+    <ID>LongMethod:XmlVectorParser.kt$@SuppressLint("RestrictedApi") internal fun AndroidVectorParser.parsePath( res: Resources, theme: Resources.Theme?, attrs: AttributeSet, builder: ImageVector.Builder, )</ID>
+    <ID>LongMethod:XmlVectorParser.kt$@SuppressWarnings("RestrictedApi") internal fun AndroidVectorParser.createVectorImageBuilder( res: Resources, theme: Resources.Theme?, attrs: AttributeSet, ): ImageVector.Builder</ID>
+    <ID>LongMethod:XmlVectorParser.kt$internal fun AndroidVectorParser.parseGroup( res: Resources, theme: Resources.Theme?, attrs: AttributeSet, builder: ImageVector.Builder, )</ID>
+    <ID>LongParameterList:AppThemeColorScheme.kt$AppThemeColorScheme$( primary: Color = this.primary, onPrimary: Color = this.onPrimary, primaryContainer: Color = this.primaryContainer, onPrimaryContainer: Color = this.onPrimaryContainer, inversePrimary: Color = this.inversePrimary, secondary: Color = this.secondary, onSecondary: Color = this.onSecondary, secondaryContainer: Color = this.secondaryContainer, onSecondaryContainer: Color = this.onSecondaryContainer, tertiary: Color = this.tertiary, onTertiary: Color = this.onTertiary, tertiaryContainer: Color = this.tertiaryContainer, onTertiaryContainer: Color = this.onTertiaryContainer, background: Color = this.background, onBackground: Color = this.onBackground, surface: Color = this.surface, onSurface: Color = this.onSurface, surfaceVariant: Color = this.surfaceVariant, onSurfaceVariant: Color = this.onSurfaceVariant, surfaceTint: Color = this.surfaceTint, inverseSurface: Color = this.inverseSurface, inverseOnSurface: Color = this.inverseOnSurface, error: Color = this.error, onError: Color = this.onError, errorContainer: Color = this.errorContainer, onErrorContainer: Color = this.onErrorContainer, outline: Color = this.outline, outlineVariant: Color = this.outlineVariant, scrim: Color = this.scrim, )</ID>
+    <ID>LongParameterList:AppThemeColorScheme.kt$AppThemeColorScheme$( primary: Color, onPrimary: Color, primaryContainer: Color, onPrimaryContainer: Color, inversePrimary: Color, secondary: Color, onSecondary: Color, secondaryContainer: Color, onSecondaryContainer: Color, tertiary: Color, onTertiary: Color, tertiaryContainer: Color, onTertiaryContainer: Color, background: Color, onBackground: Color, surface: Color, onSurface: Color, surfaceVariant: Color, onSurfaceVariant: Color, surfaceTint: Color, inverseSurface: Color, inverseOnSurface: Color, error: Color, onError: Color, errorContainer: Color, onErrorContainer: Color, outline: Color, outlineVariant: Color, scrim: Color, )</ID>
+    <ID>MagicNumber:AndroidVectorResources.kt$AndroidVectorResources$0x101051E</ID>
+    <ID>MagicNumber:AndroidVectorResources.kt$AndroidVectorResources$10</ID>
+    <ID>MagicNumber:AndroidVectorResources.kt$AndroidVectorResources$11</ID>
+    <ID>MagicNumber:AndroidVectorResources.kt$AndroidVectorResources$12</ID>
+    <ID>MagicNumber:AndroidVectorResources.kt$AndroidVectorResources$13</ID>
+    <ID>MagicNumber:AndroidVectorResources.kt$AndroidVectorResources$3</ID>
+    <ID>MagicNumber:AndroidVectorResources.kt$AndroidVectorResources$4</ID>
+    <ID>MagicNumber:AndroidVectorResources.kt$AndroidVectorResources$5</ID>
+    <ID>MagicNumber:AndroidVectorResources.kt$AndroidVectorResources$6</ID>
+    <ID>MagicNumber:AndroidVectorResources.kt$AndroidVectorResources$7</ID>
+    <ID>MagicNumber:AndroidVectorResources.kt$AndroidVectorResources$8</ID>
+    <ID>MagicNumber:AndroidVectorResources.kt$AndroidVectorResources$9</ID>
+    <ID>MagicNumber:AppThemeTypography.kt$AppThemeTypography$0.25</ID>
+    <ID>MagicNumber:XmlVectorParser.kt$14</ID>
+    <ID>MagicNumber:XmlVectorParser.kt$15</ID>
+    <ID>MagicNumber:XmlVectorParser.kt$16</ID>
+    <ID>MagicNumber:XmlVectorParser.kt$3</ID>
+    <ID>MagicNumber:XmlVectorParser.kt$5</ID>
+    <ID>MagicNumber:XmlVectorParser.kt$9</ID>
+    <ID>MayBeConst:AndroidVectorResources.kt$AndroidVectorResources$val STYLEABLE_VECTOR_DRAWABLE_CLIP_PATH_NAME = 0</ID>
+    <ID>MayBeConst:AndroidVectorResources.kt$AndroidVectorResources$val STYLEABLE_VECTOR_DRAWABLE_CLIP_PATH_PATH_DATA = 1</ID>
+    <ID>MayBeConst:AndroidVectorResources.kt$AndroidVectorResources$val STYLEABLE_VECTOR_DRAWABLE_GROUP_NAME = 0</ID>
+    <ID>MayBeConst:AndroidVectorResources.kt$AndroidVectorResources$val STYLEABLE_VECTOR_DRAWABLE_GROUP_PIVOT_X = 1</ID>
+    <ID>MayBeConst:AndroidVectorResources.kt$AndroidVectorResources$val STYLEABLE_VECTOR_DRAWABLE_GROUP_PIVOT_Y = 2</ID>
+    <ID>MayBeConst:AndroidVectorResources.kt$AndroidVectorResources$val STYLEABLE_VECTOR_DRAWABLE_GROUP_ROTATION = 5</ID>
+    <ID>MayBeConst:AndroidVectorResources.kt$AndroidVectorResources$val STYLEABLE_VECTOR_DRAWABLE_GROUP_SCALE_X = 3</ID>
+    <ID>MayBeConst:AndroidVectorResources.kt$AndroidVectorResources$val STYLEABLE_VECTOR_DRAWABLE_GROUP_SCALE_Y = 4</ID>
+    <ID>MayBeConst:AndroidVectorResources.kt$AndroidVectorResources$val STYLEABLE_VECTOR_DRAWABLE_GROUP_TRANSLATE_X = 6</ID>
+    <ID>MayBeConst:AndroidVectorResources.kt$AndroidVectorResources$val STYLEABLE_VECTOR_DRAWABLE_GROUP_TRANSLATE_Y = 7</ID>
+    <ID>MayBeConst:AndroidVectorResources.kt$AndroidVectorResources$val STYLEABLE_VECTOR_DRAWABLE_HEIGHT = 2</ID>
+    <ID>MayBeConst:AndroidVectorResources.kt$AndroidVectorResources$val STYLEABLE_VECTOR_DRAWABLE_PATH_FILL_ALPHA = 12</ID>
+    <ID>MayBeConst:AndroidVectorResources.kt$AndroidVectorResources$val STYLEABLE_VECTOR_DRAWABLE_PATH_FILL_COLOR = 1</ID>
+    <ID>MayBeConst:AndroidVectorResources.kt$AndroidVectorResources$val STYLEABLE_VECTOR_DRAWABLE_PATH_NAME = 0</ID>
+    <ID>MayBeConst:AndroidVectorResources.kt$AndroidVectorResources$val STYLEABLE_VECTOR_DRAWABLE_PATH_PATH_DATA = 2</ID>
+    <ID>MayBeConst:AndroidVectorResources.kt$AndroidVectorResources$val STYLEABLE_VECTOR_DRAWABLE_PATH_STROKE_ALPHA = 11</ID>
+    <ID>MayBeConst:AndroidVectorResources.kt$AndroidVectorResources$val STYLEABLE_VECTOR_DRAWABLE_PATH_STROKE_COLOR = 3</ID>
+    <ID>MayBeConst:AndroidVectorResources.kt$AndroidVectorResources$val STYLEABLE_VECTOR_DRAWABLE_PATH_STROKE_LINE_CAP = 8</ID>
+    <ID>MayBeConst:AndroidVectorResources.kt$AndroidVectorResources$val STYLEABLE_VECTOR_DRAWABLE_PATH_STROKE_LINE_JOIN = 9</ID>
+    <ID>MayBeConst:AndroidVectorResources.kt$AndroidVectorResources$val STYLEABLE_VECTOR_DRAWABLE_PATH_STROKE_MITER_LIMIT = 10</ID>
+    <ID>MayBeConst:AndroidVectorResources.kt$AndroidVectorResources$val STYLEABLE_VECTOR_DRAWABLE_PATH_STROKE_WIDTH = 4</ID>
+    <ID>MayBeConst:AndroidVectorResources.kt$AndroidVectorResources$val STYLEABLE_VECTOR_DRAWABLE_PATH_TRIM_PATH_END = 6</ID>
+    <ID>MayBeConst:AndroidVectorResources.kt$AndroidVectorResources$val STYLEABLE_VECTOR_DRAWABLE_PATH_TRIM_PATH_FILLTYPE = 13</ID>
+    <ID>MayBeConst:AndroidVectorResources.kt$AndroidVectorResources$val STYLEABLE_VECTOR_DRAWABLE_PATH_TRIM_PATH_OFFSET = 7</ID>
+    <ID>MayBeConst:AndroidVectorResources.kt$AndroidVectorResources$val STYLEABLE_VECTOR_DRAWABLE_PATH_TRIM_PATH_START = 5</ID>
+    <ID>MayBeConst:AndroidVectorResources.kt$AndroidVectorResources$val STYLEABLE_VECTOR_DRAWABLE_TINT = 1</ID>
+    <ID>MayBeConst:AndroidVectorResources.kt$AndroidVectorResources$val STYLEABLE_VECTOR_DRAWABLE_TINT_MODE = 6</ID>
+    <ID>MayBeConst:AndroidVectorResources.kt$AndroidVectorResources$val STYLEABLE_VECTOR_DRAWABLE_VIEWPORT_HEIGHT = 8</ID>
+    <ID>MayBeConst:AndroidVectorResources.kt$AndroidVectorResources$val STYLEABLE_VECTOR_DRAWABLE_VIEWPORT_WIDTH = 7</ID>
+    <ID>MayBeConst:AndroidVectorResources.kt$AndroidVectorResources$val STYLEABLE_VECTOR_DRAWABLE_WIDTH = 3</ID>
+    <ID>MayBeConst:XmlVectorParser.kt$private val FILL_TYPE_WINDING = 0</ID>
+    <ID>ReturnCount:XmlVectorParser.kt$internal fun AndroidVectorParser.parseCurrentVectorNode( res: Resources, attrs: AttributeSet, theme: Resources.Theme? = null, builder: ImageVector.Builder, nestedGroups: Int, ): Int</ID>
+    <ID>SpreadOperator:clean.main.kts$(commands[0], *arguments.toTypedArray())</ID>
+    <ID>SwallowedException:PainterResources.kt$throwable: Throwable</ID>
+    <ID>TooGenericExceptionCaught:PainterResources.kt$throwable: Throwable</ID>
+    <ID>TopLevelPropertyNaming:PainterResources.kt$private const val errorMessage = "Only VectorDrawables and rasterized asset types are supported ex. PNG, JPG"</ID>
+    <ID>UseRequire:XmlVectorParser.kt$throw IllegalArgumentException("No path data available")</ID>
+  </CurrentIssues>
+</SmellBaseline>
